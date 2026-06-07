@@ -1,4 +1,4 @@
-from datetime import datetime
+import datetime
 text=input("请输入今天的日记：")
 now = datetime.now()
 time = now.strftime("%Y-%m-%d %H:%M:%S")
