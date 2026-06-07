@@ -1,0 +1,7 @@
+text=input("请输入一段文字：")
+text=text.strip()
+text=text.replace('，',',')
+text=text.replace('？','?')
+text=text.replace('！','!')
+text=text.replace('。','.')
+print(text)
